@@ -4,10 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina inicial</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #ccc;
+      }
+      .menu {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
-    <main>
-      <h3>Bem-vindos(as)</h3>
-    </main>
+    <nav class="menu">
+      <img
+        src="https://bluemoji.io/cdn-proxy/646218c67da47160c64a84d5/66b3ea6b437be789ded213fd_45.png"
+        alt="Logo site"
+        width="100"
+      />
+      <ul>
+        <a href="/">HOME</a>
+        <a href="/sobre">Sobre Nós</a>
+      </ul>
+    </nav>
   </body>
 </html>
